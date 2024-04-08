@@ -1,0 +1,219 @@
+.baap {
+  align-items: center;
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+nav a {
+  float: left;
+  font-weight: 500;
+  font-size: medium;
+  display: block;
+  color: rgb(126, 116, 116);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  position: relative;
+  /* added */
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a:hover::after {
+  /* added */
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(227, 112, 112);
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(126, 116, 116);
+  padding: 14px 20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.box_parent {
+  padding: 80px;
+}
+
+.box {
+  margin-left: 140px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.box .carousel-inner {
+  /* Image covers half the width */
+  border-radius: 8px;
+}
+
+.box img {
+  width: 50%;
+}
+
+.element2 {
+  padding: 0 20px;
+  width: 50%;
+}
+
+.element2 h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.element2 h6 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.element2 p {
+  margin-bottom: 10px;
+}
+
+.element2 section {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #c9c2c29a;
+  width: 400px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.element2 p1 {
+  font-weight: 450;
+}
+
+.element2 a {
+  text-decoration: none;
+  color: blue;
+}
+
+.element2 button {
+  background-color: rgb(255, 255, 255);
+  color: #00AFA0;
+  border-style: solid;
+  border-color: #00AFA0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 140px;
+}
+
+.element2 b {
+  font-weight: bold;
+}
+
+
+
+.filter-container {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px auto;
+  max-width: 1100px;
+  /* Optional: Set a maximum width for the container */
+}
+
+.filter-container h4 {
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.filter-container p {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.filter-container .filter {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.filter-container .filter-btn {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.filter-container .filter-btn:hover {
+  background-color: #eee;
+}
+
+
+
+
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 210px;
+}
+
+th {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+  color: #666;
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+  color: #666;
+}
