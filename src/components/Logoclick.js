@@ -56,30 +56,109 @@ function Logoclick() {
       </div>
 
 
-      <table>
-        <thead>
+      <div className='yo'>
+        <table>
           <tr>
             <th>Variants</th>
             <th>On-Road Price</th>
             <th>Compare</th>
           </tr>
-        </thead>
-        <tbody>
           <tr>
             <td>Urban Cruiser Taisor E 1.2 Pet...</td>
             <td>Rs. 9.10 Lakh</td>
-            <td>Add to compare</td>
+            <td class="compare">Add to compare</td>
           </tr>
           <tr>
-            <td>Urban Cruiser Taisor E 1.2 CN...</td>
+            <td>Urban Cruiser Taisor E 1.2 CNG...</td>
             <td>Rs. 9.90 Lakh</td>
-            <td>Add to compare</td>
+            <td class="compare">Add to compare</td>
           </tr>
-        </tbody>
-      </table>
+          <tr>
+            <td>Urban Cruiser Taisor S 1.2 Pet...</td>
+            <td>Rs. 10.12 Lakh</td>
+            <td class="compare">Add to compare</td>
+          </tr>
+          <tr>
+            <td>Urban Cruiser Taisor S Plus 1....</td>
+            <td>Rs. 10.58 Lakh</td>
+            <td class="compare">Add to compare</td>
+          </tr>
+          <tr>
+            <td>Urban Cruiser Taisor S Plus 1....</td>
+            <td>Rs. 10.58 Lakh</td>
+            <td class="compare">Add to compare</td>
+          </tr>
+          <tr>
+            <td>Urban Cruiser Taisor S Plus 1....</td>
+            <td>Rs. 10.58 Lakh</td>
+            <td class="compare">Add to compare</td>
+          </tr>
+          <tr>
+            <td>Urban Cruiser Taisor S Plus 1....</td>
+            <td>Rs. 10.58 Lakh</td>
+            <td class="compare">Add to compare</td>
+          </tr>
+          <tr>
+            <td>Urban Cruiser Taisor S Plus 1....</td>
+            <td>Rs. 10.58 Lakh</td>
+            <td class="compare">Add to compare</td>
+          </tr>
+          <tr>
+            <td>Urban Cruiser Taisor S Plus 1....</td>
+            <td>Rs. 10.58 Lakh</td>
+            <td class="compare">Add to compare</td>
+          </tr>
+          <tr>
+            <td>Urban Cruiser Taisor S Plus 1....</td>
+            <td>Rs. 10.58 Lakh</td>
+            <td class="compare">Add to compare</td>
+          </tr>
+        </table>
+      </div>
+
+
+
+      <div class="header">
+        <div class="container">
+          <h5>Contact Toyota</h5>
+          <div class="cta">
+            <p>Get in touch for the best buying option from your authorized dealer</p>
+            <a href="#" class="btn">Get Assistance</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="container">
+          <p>Toyota Taisor Car Specifications</p>
+          <div class="features">
+            <div class="feature">
+              <p1>Price</p1>
+              <p>Rs. 9.10 Lakh onwards</p>
+            </div>
+            <div class="feature">
+              <p1>Engine</p1>
+              <p>1197 cc & 998 cc</p>
+            </div>
+            <div class="feature">
+              <p1>Fuel Type</p1>
+              <p>Petrol & CNG</p>
+            </div>
+            <div class="feature">
+              <p1>Transmission</p1>
+              <p>Manual & Automatic</p>
+            </div>
+            <div class="feature">
+              <p1>Seating Capacity</p1>
+              <p>5 Seater</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
     </div >
+
 
 
   )

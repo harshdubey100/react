@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // import carouselExampleSlidesOnly from 'style.css'
 import logo from '../images/logo.jpg';
 import img1 from '../images/img1.jpg';
@@ -7,6 +7,16 @@ import img3 from '../images/img3.jpg';
 
 
 function Navbar() {
+  useEffect(() => {
+    const carousel = document.querySelector('#carouselExampleSlidesOnly');
+    const carouselInstance = new window.bootstrap.Carousel(carousel, {
+      interval: 500 // Adjust the interval here
+    });
+
+    return () => {
+      carouselInstance.dispose(); // Clean up on component unmount
+    };
+  }, []); // Run this effect only once after initial render
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
@@ -14,7 +24,7 @@ function Navbar() {
           <img src={logo} width="150" height="25" className="d-inline-block align-text-top" />
         </a>
         <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-          <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel" style={{ width: '80px' }}>
+          <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel" data-interval="5" style={{ width: '80px' }} >
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img src={img1} className="d-block w-1" alt="Slide 1" />
